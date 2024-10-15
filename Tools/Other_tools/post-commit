@@ -1,0 +1,8 @@
+#!/bin/bash
+# post-commit 钩子
+
+# 获取当前目录
+# current_dir=$(pwd)
+
+# 运行更新版本脚本
+./Tools/Bat/revision_update.bat > ./.git/logfile.log 2>&1

@@ -1,0 +1,1 @@
+Readme: Copy these two files to the.git/hooks  
